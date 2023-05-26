@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'TV 2 Sans Display';
+    src: url('TV2SansDisplay-Light.eot');
+    src: local('TV 2 Sans Display Light'), local('TV2SansDisplay-Light'),
+        url('TV2SansDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('TV2SansDisplay-Light.woff2') format('woff2'),
+        url('TV2SansDisplay-Light.woff') format('woff'),
+        url('TV2SansDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TV 2 Sans Display';
+    src: url('TV2SansDisplay-ExtraLight.eot');
+    src: local('TV 2 Sans Display ExtraLight'), local('TV2SansDisplay-ExtraLight'),
+        url('TV2SansDisplay-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('TV2SansDisplay-ExtraLight.woff2') format('woff2'),
+        url('TV2SansDisplay-ExtraLight.woff') format('woff'),
+        url('TV2SansDisplay-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TV 2 Sans Display';
+    src: url('TV2SansDisplay-SemiBold.eot');
+    src: local('TV 2 Sans Display SemiBold'), local('TV2SansDisplay-SemiBold'),
+        url('TV2SansDisplay-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('TV2SansDisplay-SemiBold.woff2') format('woff2'),
+        url('TV2SansDisplay-SemiBold.woff') format('woff'),
+        url('TV2SansDisplay-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TV 2 Sans Display';
+    src: url('TV2SansDisplay-Regular.eot');
+    src: local('TV 2 Sans Display Regular'), local('TV2SansDisplay-Regular'),
+        url('TV2SansDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TV2SansDisplay-Regular.woff2') format('woff2'),
+        url('TV2SansDisplay-Regular.woff') format('woff'),
+        url('TV2SansDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TV 2 Sans Display';
+    src: url('TV2SansDisplay-Medium.eot');
+    src: local('TV 2 Sans Display Medium'), local('TV2SansDisplay-Medium'),
+        url('TV2SansDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TV2SansDisplay-Medium.woff2') format('woff2'),
+        url('TV2SansDisplay-Medium.woff') format('woff'),
+        url('TV2SansDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TV 2 Sans Display';
+    src: url('TV2SansDisplay-Bold.eot');
+    src: local('TV 2 Sans Display Bold'), local('TV2SansDisplay-Bold'),
+        url('TV2SansDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TV2SansDisplay-Bold.woff2') format('woff2'),
+        url('TV2SansDisplay-Bold.woff') format('woff'),
+        url('TV2SansDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TV 2 Sans Display';
+    src: url('TV2SansDisplay-Thin.eot');
+    src: local('TV 2 Sans Display Thin'), local('TV2SansDisplay-Thin'),
+        url('TV2SansDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+        url('TV2SansDisplay-Thin.woff2') format('woff2'),
+        url('TV2SansDisplay-Thin.woff') format('woff'),
+        url('TV2SansDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

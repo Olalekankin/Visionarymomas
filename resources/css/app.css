@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+ font-family: 'TV2SansDisplay-Regular';
+ font-family: 'TV2SansDisplay-Bold';
+ src: url(font\TV2SansDisplay-Regular.ttf);
+}
+
+
+.element {
+  background: linear-gradient(
+    rgba(247, 247, 255, 0) 0%,
+    rgba(51, 115, 102, 0.17) 100%
+  );
+}
