@@ -1,6 +1,6 @@
 @extends('layout.app')
 @section('body')
-<section class="w-full bg-primary h-auto lg:h-screen px-6 lg:px-24 py-5 lg:py-7">
+<section class="w-full relative bg-primary h-auto lg:h-screen px-6 lg:px-24 py-5 lg:py-7">
     <div>
         <x-partial.nav />
     </div>
@@ -12,7 +12,7 @@
                 <p class="mb-8 leading-relaxed text-white font-noto">Find other mothers, connect,  share moments and share experiences together.</p>
                 
                 <div class="w-full lg:w-auto flex justify-center">
-                    <button class="w-full lg:w-auto flex items-center group justify-center text-center text-secondary bg-vblue border-0 py-3 px-6 focus:outline-none hover:bg-opacity-80 rounded-full text-lg font-medium">Start connecting today <x-gmdi-arrow-forward  class="h-3 ml-3 group-hover:translate-x-2"/></button>
+                    <button class="w-full lg:w-auto flex items-center group justify-center text-center text-secondary bg-vblue border-0 py-3 px-6 focus:outline-none hover:bg-opacity-80 rounded-full text-lg font-medium">Start connecting today <x-gmdi-arrow-forward  class="h-5 ml-2 group-hover:translate-x-2"/></button>
                 </div>
             </div>
             <div class="lg:max-w-lg lg:w-full lg:w-1/2 w-full">

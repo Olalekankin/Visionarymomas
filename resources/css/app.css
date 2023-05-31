@@ -15,3 +15,7 @@
     rgba(51, 115, 102, 0.17) 100%
   );
 }
+
+.navbar.active{
+  display: block;
+}
