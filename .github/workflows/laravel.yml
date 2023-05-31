@@ -14,4 +14,4 @@ jobs:
         server: ftp.visionarymomas.com
         username: u509594482.vmomas
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/visionarymomas
+        server-dir: /public_html/visionarymomas/
