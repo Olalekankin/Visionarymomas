@@ -19,3 +19,7 @@
 .navbar.active{
   display: block;
 }
+
+.pag.active{
+  background-color: #6247F1;
+}
