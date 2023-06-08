@@ -9,7 +9,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400&display=swap" rel="stylesheet">
         <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
 
-
         @hasSection('title')
         <title>@yield('title') - {{ config('app.name') }}</title>
         @else

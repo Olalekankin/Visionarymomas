@@ -1,5 +1,3 @@
-{{-- Navbar --}}
-
 <nav class="">
   <div class="flex flex-wrap items-center justify-between">
     <div class="flex md:space-x-9 items-center">
@@ -8,9 +6,9 @@
       </a>
       <div class="bg-white w-full hidden left-0  lg:w-auto absolute  lg:static top-0 lg:bg-transparent items-center justify-between lg:flex lg::w-auto md:order-1 navbar" id="navbar-cta">
         <button class="lg:hidden absolute right-4 top-3 p-1 border border-primary rounded-full close-btn"><x-gmdi-close-o class="h-5 text-primary" /></button>
-        <ul class="w-full lg:w-auto bg-white lg:bg-transparent flex flex-col font-medium px-4 py-10 lg:px-0 lg:py-0 mt-4 text-primary lg:text-white  rounded-lg  lg:flex-row md:space-x-12 lg:mt-0 lg:border-0 z-50">
+        <ul class="w-full lg:w-auto flex bg-white lg:bg-transparent flex-col font-medium px-4 py-10 lg:px-0 lg:py-0 mt-4 text-primary lg:text-white  rounded-lg  lg:flex-row md:space-x-12 lg:mt-0 lg:border-0 z-50">
           <li>
-            <a href="{{route('index')}}" class="block py-2 text-vblue pl-3 pr-4 hover:text-vblue font-noto md:p-0">Home</a>
+            <a href="{{route('index')}}" class="block py-2 pl-3 pr-4 hover:text-vblue font-noto md:p-0">Home</a>
           </li>
           <li>
             <a href="{{route('about')}}" class="block py-2 pl-3 pr-4 hover:text-vblue font-noto md:p-0">About</a>
@@ -19,10 +17,10 @@
             <a href="{{route('vendor')}}" class="block py-2 pl-3 pr-4 hover:text-vblue font-noto md:p-0">Vendors</a>
           </li>
           <li>
-            <a href="{{route('term')}}" class="block py-2 pl-3 pr-4 hover:text-vblue font-noto md:p-0" >Terms of Use</a>
+            <a href="{{route('term')}}" class="block py-2 pl-3 pr-4 text-vblue hover:text-vblue font-noto md:p-0" >Terms of Use</a>
           </li>
           <li>
-            <a href="{{route('support')}}" class="block py-2 pl-3 pr-4 hover:text-vblue font-noto md:p-0">Support</a>
+            <a href="{{route('support')}}" class="block py-2 pl-3 pr-4  hover:text-vblue font-noto md:p-0">Support</a>
           </li>
         </ul>
       </div>

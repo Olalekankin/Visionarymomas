@@ -14,20 +14,16 @@
             </div>
         </div>
         
-        <img class="object-cover object-center rounded w-full lg:absolute -top-2/6 lg:my-8" alt="hero" src="asset/vm.png">
+        <img class="object-cover object-center rounded w-full lg:absolute -top-2/6 lg:mb-8" alt="hero" src="asset/vm.png">
         
     </section>
 </section>
 
-<section class="w-full bg-coffee h-auto px-6 lg:px-24 py-5 lg:pb-7 lg:pt-64">
-  <div class="w-full block lg:flex py-8 lg:py-24 items-center">
+<section class="w-full bg-coffee h-auto px-6 lg:px-24 py-5 lg:pb-7 lg:pt-56">
+  <div class="w-full block lg:flex py-8 lg:pt-24 items-center">
       <div class="lg:flex-grow lg:w-1/2 lg:pr-24 flex flex-col items-start lg:text-left mb-10 lg:mb-0">
-        <h1 class="font-tvsan sm:text-5xl text-3xl mb-4 font-bold text-black leading-relaxed text-center tracking-wide">About VMomas</h1>
-        <p class="leading-relaxed sm:text-2xl text-base tracking-wide">Hear what some mothers have to say about us and how we have been able to shape their lives and experiences. Hear what some mothers have to say about us and how we have been able to shape their lives and experiences.
-        </p>
-        <p class="leading-relaxed sm:text-2xl text-base tracking-wide mt-4"> Hear what some mothers have to say about us and how we have been able to shape their lives and experiences. Hear what some mothers have to say about us and how we have been able to shape their lives and experiences.
-        </p>
-        <p class="leading-relaxed sm:text-2xl text-base tracking-wide mt-4">Hear what some mothers have to say about us and how we have been able to shape their lives and experiences.
+        <h1 class="font-tvsan sm:text-5xl text-3xl mb-6 font-bold text-black leading-relaxed text-center tracking-wide">About VMomas</h1>
+        <p class="leading-relaxed sm:text-2xl text-base tracking-wide">VMomas is a proprietary technology of Opulence Capital Investments Ltd. The objective of the solution is to create a platform that supports moms on their parenting journey, to achieve a happy mom & a thriving child.
         </p>
       </div>
       <div class="lg:w-3/5 w-full lg:mt-16">
@@ -35,44 +31,29 @@
       </div>
   </div>
 </section>
-<section class="w-full bg-coffee h-auto px-6 lg:px-24 py-5 lg:py-7">
-  <div class="w-full py-8 lg:py-24 block lg:flex lg:items-center lg:justify-between">
-      <div class="lg:flex-grow lg:w-1/3 flex flex-col items-start lg:text-left mb-10 lg:mb-0">
-          <div class="w-full">
-            <h1 class="font-tvsan sm:text-5xl text-3xl mb-4 font-bold text-black leading-relaxed tracking-wide">What we have <br class="hidden lg:inline"> achieved so far.</h1>
-            <p class="leading-relaxed sm:text-2xl text-base tracking-wide">Hear what some mothers have to say about us and how we have been able to shape their lives and experiences. Hear what some mothers have to say about us and how we have been able to shape their lives and experiences.
-            </p>
-            <p class="leading-relaxed sm:text-2xl text-base tracking-wide mt-4"> Hear what some mothers have to say about us and how we have been able to shape their lives and experiences. Hear what some mothers have to say about us and how we have been able to shape their lives and experiences.
-            </p>
-            <p class="leading-relaxed sm:text-2xl text-base tracking-wide mt-4">Hear what some mothers have to say about us and how we have been able to shape their lives and experiences.
-            </p>
-          </div>
+
+<section class="w-full bg-coffee h-auto px-6 lg:px-24 py-5 lg:pt-10 lg:pb-20">
+  <div class="w-full block lg:flex lg:justify-between lg:items-center">
+      <div class="lg:w-1/2 lg:pr-24 mb-10 lg:mb-0">
+       <x-gmdi-format-quote-o class="h-12 lg:h-20 text-vorange mb-5 lg:mb-9 rotate-180"/>
+        <p class="leading-relaxed text-2xl sm:text-4xl tracking-wide font-bold font-tvsan text-blak">Hear what these visionary moms have to say about how the leverage the VMomas platform as a great parenting and support tool.
+        </p>
       </div>
-      <div class="lg:w-1/2 w-full block lg:flex justify-end lg:mt-12">
-          <div class="w-full lg:w-4/5 grid grid-cols-2 gap-5">
-            <div class="border border-vgrey rounded-xl text-center w-40 h-40 p-4 flex flex-col justify-center items-center">
-              <h3 class="font-tvsan font-thin text-5xl">120k</h3>
-              <p class="font-tvsan text-lg font-semibold ">Momas</p>
-            </div>
-
-            <div class="border border-vgrey rounded-xl text-center w-40 h-40 p-4 flex flex-col justify-center items-center">
-              <h3 class="font-tvsan font-thin text-5xl">1.2M</h3>
-              <p class="font-tvsan text-lg font-semibold ">Resources</p>
-            </div>
-
-            <div class="border border-vgrey rounded-xl text-center w-40 h-40 p-4 flex flex-col justify-center items-center">
-              <h3 class="font-tvsan font-thin text-5xl">12k</h3>
-              <p class="font-tvsan text-lg font-semibold ">Rooms</p>
-            </div>
-
-            <div class="border border-vgrey rounded-xl text-center w-40 h-40 p-4 flex flex-col justify-center items-center">
-              <h3 class="font-tvsan font-thin text-5xl">120+</h3>
-              <p class="font-tvsan text-lg font-semibold ">Moments</p>
-            </div>
-          </div>
+      <div class="lg:w-3/5 w-full lg:mt-16">
+        <div class="relative">
+          <video src="" controls muted poster="asset/poster.png" class="relative z-20"></video>
+          <img src="asset/red.png" alt="" class="hidden lg:inline absolute z-0 right-12 -bottom-10">
+        </div>  
+        <div class="hidden lg:flex space-x-3 mt-4 flex-wrap">
+          <video src="" controls muted poster="asset/poster1.png"></video>
+          <video src="" controls muted poster="asset/poster2.png"></video>
+          <video src="" controls muted poster="asset/poster3.png"></video>
+        </div>
       </div>
   </div>
 </section>
+
+
 <section class="w-full element h-auto px-6 lg:px-24 py-5 lg:py-7">
   <div class="w-full flex py-8 lg:py-24 flex-col items-start justify-center">
     <div class="mb-12">
@@ -116,7 +97,7 @@
 </section>
 
 <section class="w-full bg-pattern bg-primary h-auto px-6 lg:px-24 py-5 lg:py-7">
-  <div class="flex py-8 lg:py-24 lg:flex-row flex-col items-center">
+  <div class="flex py-8 lg:py-20 lg:flex-row flex-col items-center">
       <div class="lg:flex-grow lg:w-1/2 lg:pr-24 flex flex-col items-start lg:text-left mb-16 lg:mb-0 text-white">
         <h1 class="font-tvsan sm:text-5xl text-3xl mb-8 font-bold leading-relaxed tracking-wide">Excited to join a unique <br class="hidden lg:inline"> community of loving <br class="hidden lg:inline">  mothers?</h1>
         <p class="mb-9 leading-relaxed sm:text-2xl text-base tracking-wide font-noto">Let’s make the experience as simple as possible for you. find, connect and share experiences.</p>

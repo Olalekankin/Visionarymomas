@@ -8,27 +8,31 @@
         <div class="w-full flex justify-center">
             <div class="text-center w-full mb-6 lg:mt-8">
                 <h1 class="title-font sm:text-5xl text-3xl mb-5 font-bold text-white font-tvsan"> Let's get in touch 
-                </h1>
-                <p class="leading-relaxed text-white font-noto">Reach out to us let’s talk money moves and how to help you be a better Moma.</p>
-                
+                </h1>    
             </div>
         </div>
-        <div class="w-full lg:absolute flex justify-center lg:translate-y-20">
+        <div class="w-full lg:absolute flex justify-center lg:translate-y-16">
           <div class="w-full lg:w-5/6 block h-auto lg:flex items-start">
            <img class="h-auto w-full lg:w-1/2" src="asset/vm1.png" alt="">
-           <form action="" class="bg-white w-full lg:w-1/2 px-5 lg:px-20 py-5 lg:py-10 rounded-b-2xl  lg:rounded-r-3xl">
+           @if(Session::has('message_sent'))
+              <div class="bg-green-400 text-white">
+                {{Session::get('message_sent')}}
+              </div>
+           @endif
+           <form action="{{route('contact.send')}}" method="POST" enctype="multipart/form-data" class="bg-white w-full lg:w-1/2 px-5 lg:px-20 py-5 lg:py-10 rounded-b-2xl  lg:rounded-r-3xl">
+            @csrf
              <h1 class="font-tvsan font-bold text-2xl ">Send us a message</h1>
-             <input type="text" placeholder="Full name" name="name" class=" outline-none border rounded-full mt-4 border-vgrey px-5 w-full py-3 block">
-             <input type="email" placeholder="Email Address" name="email" class=" outline-none border rounded-full mt-4 border-vgrey w-full px-5 py-3 block">
-             <input type="tel" placeholder="Full name" name="phone" class=" outline-none border rounded-full mt-4 border-vgrey px-5 w-full py-3 block">
-             <textarea name="" id="" rows="4" class="border border-vgrey w-full mt-4 rounded-xl px-5 py-3">Message</textarea>
-             <button class="bg-primary text-white py-3 px-5 rounded-full mt-4">Send Message</button>
+             <input type="text" placeholder="Full name" name="name" class=" outline-none focus:border-primary border rounded-full mt-4 border-vgrey px-5 w-full py-3 block">
+             <input type="email" placeholder="Email Address" name="email" class=" outline-none focus:border-primary border rounded-full mt-4 border-vgrey w-full px-5 py-3 block">
+             <input type="tel" placeholder="Phone Number" name="phone" class=" outline-none border focus:border-primary rounded-full mt-4 border-vgrey px-5 w-full py-3 block">
+             <textarea name="" id="" rows="4" class="border border-vgrey w-full mt-4 rounded-xl px-5 focus:border-primary outline-none py-3">Message</textarea>
+             <button type="submit" class="bg-primary text-white py-3 px-5 rounded-full mt-4">Send Message</button>
            </form>
           </div>
         </div>
     </section>
 </section>
-<div class="hidden lg:block w-full h-44 bg-coffee"></div>
+<div class="hidden lg:block w-full h-56 bg-coffee"></div>
 
 <section class="w-full element h-auto px-6 lg:px-24 py-5 lg:pb-7">
   <div class="w-full flex py-8 lg:py-24 flex-col items-start justify-center">

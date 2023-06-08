@@ -34,7 +34,7 @@
             <a class="text-dede hover:text-vblue">Momas</a>
           </li>
           <li>
-            <a class="text-dede hover:text-vblue">Vendors</a>
+            <a href="{{route('vendor')}}" class="text-dede hover:text-vblue">Vendors</a>
           </li>
           <li>
             <a class="text-dede hover:text-vblue">FAQ</a>
@@ -45,7 +45,7 @@
         <h2 class="title-font font-bold text-white tracking-widest text-sm mb-3">LEGAL</h2>
         <nav class="list-none mb-8 space-y-2">
           <li>
-            <a class="text-dede hover:text-vblue">Terms and Condition</a>
+            <a href="{{route('term')}}" class="text-dede hover:text-vblue">Terms and Condition</a>
           </li>
           <li>
             <a class="text-dede hover:text-vblue">Privacy Policy</a>
@@ -65,13 +65,13 @@
             <a class="text-vblue underline hover:text-vblue">Linkedin</a>
           </li>
           <li>
-            <a class="text-vblue underline hover:text-vblue">Facebook</a>
+            <a href="https://web.facebook.com/group/vmomas/" class="text-vblue underline hover:text-vblue">Facebook</a>
           </li>
           <li>
             <a class="text-vblue underline hover:text-vblue">Twitter</a>
           </li>
           <li>
-            <a class="text-vblue underline hover:text-vblue">Instagram</a>
+            <a href="https://www.instagram.com/group/vmomas/" class="text-vblue underline hover:text-vblue">Instagram</a>
           </li>
         </nav>
       </div>
