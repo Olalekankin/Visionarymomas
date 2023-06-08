@@ -1,6 +1,6 @@
 {{-- Footer --}}
 <footer class="bg-secondary w-full h-auto px-6 lg:px-24 py-5 lg:py-7 text-dede">
-  <div class="py-8 lg:py-10 lg:py-24 flex lg:items-start items-start lg:flex-row lg:flex-nowrap flex-wrap flex-col">
+  <div class="py-8 lg:py-24 flex lg:items-start items-start lg:flex-row lg:flex-nowrap flex-wrap flex-col">
     <div class="w-64 flex-shrink-0">
       <a class="flex  items-center justify-start">
         <img src="asset/vmalogo.png" class="h-9 lg:h-14" alt="Visionary Momas Logo"/>
@@ -14,16 +14,16 @@
         <h2 class=" font-medium text-white tracking-widest text-sm mb-3">ABOUT US</h2>
         <nav class="list-none mb-8 space-y-2">
           <li>
-            <a class="text-dede hover:text-gray-800">Resource</a>
+            <a class="text-dede hover:text-vblue">Resource</a>
           </li>
           <li>
-            <a class="text-dede hover:text-gray-800">Course</a>
+            <a class="text-dede hover:text-vblue">Course</a>
           </li>
           <li>
-            <a class="text-dede hover:text-gray-800">Study Tools</a>
+            <a class="text-dede hover:text-vblue">Study Tools</a>
           </li>
           <li>
-            <a class="text-dede hover:text-gray-800">Blog</a>
+            <a class="text-dede hover:text-vblue">Blog</a>
           </li>
         </nav>
       </div>
@@ -31,16 +31,13 @@
         <h2 class=" font-medium text-white tracking-widest text-sm mb-3">COMMUNITY</h2>
         <nav class="list-none mb-8 space-y-2">
           <li>
-            <a class="text-dede hover:text-gray-800">Ambassadors</a>
+            <a class="text-dede hover:text-vblue">Momas</a>
           </li>
           <li>
-            <a class="text-dede hover:text-gray-800">Partners</a>
+            <a href="{{route('vendor')}}" class="text-dede hover:text-vblue">Vendors</a>
           </li>
           <li>
-            <a class="text-dede hover:text-gray-800">FAQ</a>
-          </li>
-          <li>
-            <a class="text-dede hover:text-gray-800">Communities</a>
+            <a class="text-dede hover:text-vblue">FAQ</a>
           </li>
         </nav>
       </div>
@@ -48,10 +45,10 @@
         <h2 class="title-font font-bold text-white tracking-widest text-sm mb-3">LEGAL</h2>
         <nav class="list-none mb-8 space-y-2">
           <li>
-            <a class="text-dede hover:text-gray-800">Terms and Condition</a>
+            <a href="{{route('term')}}" class="text-dede hover:text-vblue">Terms and Condition</a>
           </li>
           <li>
-            <a class="text-dede hover:text-gray-800">Privacy Police</a>
+            <a class="text-dede hover:text-vblue">Privacy Policy</a>
           </li>
         </nav>
       </div>
@@ -65,16 +62,16 @@
             <p class="text-dede">Mon - Fri, 9am - 5pm (GMT) </p>
           </li>
           <li>
-            <a class="text-vblue underline hover:text-gray-800">Linkedin</a>
+            <a class="text-vblue underline hover:text-vblue">Linkedin</a>
           </li>
           <li>
-            <a class="text-vblue underline hover:text-gray-800">Facebook</a>
+            <a href="https://web.facebook.com/group/vmomas/" class="text-vblue underline hover:text-vblue">Facebook</a>
           </li>
           <li>
-            <a class="text-vblue underline hover:text-gray-800">Twitter</a>
+            <a class="text-vblue underline hover:text-vblue">Twitter</a>
           </li>
           <li>
-            <a class="text-vblue underline hover:text-gray-800">Instagram</a>
+            <a href="https://www.instagram.com/group/vmomas/" class="text-vblue underline hover:text-vblue">Instagram</a>
           </li>
         </nav>
       </div>

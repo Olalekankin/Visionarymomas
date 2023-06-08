@@ -17,6 +17,11 @@ export default {
                 vred: "#FF5C5C",
                 coffee: "#F5F3FE",
                 dede: "#DEDEDE",
+                blak: "#151515",
+                vgrey: "#A0A0A0",
+                lightgrey: "#D9DBE1",
+                vorange: "#FFAA5C",
+                tgrey: "#242424",
             },
             fontFamily: {
                 noto: ["Noto Sans Display", "sans-serif"],
@@ -29,7 +34,7 @@ export default {
                 },
             },
             backgroundImage: {
-                "pattern": "url('/asset/pattern.png')",
+                pattern: "url('/asset/pattern.png')",
             },
         },
     },
