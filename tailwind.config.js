@@ -24,8 +24,9 @@ export default {
                 tgrey: "#242424",
             },
             fontFamily: {
-                noto: ["Noto Sans Display", "sans-serif"],
-                tvsan: ["TV2SansDisplay-Regular", "sans-serif"],
+                noto: ["Noto Sans Display"],
+                tvsan: ["TV 2 Sans Display"],
+                sacra: ["Sacramento"],
             },
             gradientColorStops: {
                 grad: {

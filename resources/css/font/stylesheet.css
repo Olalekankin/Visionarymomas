@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Sacramento';
+    src: url('Sacramento-Regular.eot');
+    src: local('Sacramento'), local('Sacramento-Regular'),
+        url('Sacramento-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Sacramento-Regular.woff2') format('woff2'),
+        url('Sacramento-Regular.woff') format('woff'),
+        url('Sacramento-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -4,23 +4,23 @@
       <a href="{{route('index')}}" class="flex items-center">
           <img src="asset/vmalogo3.png" class="mr-3 h-6 lg:h-8" alt="Visionary Momas Logo" />
       </a>
-      <div class="bg-white w-full hidden left-0  lg:w-auto absolute  lg:static top-0 lg:bg-transparent items-center justify-between lg:flex lg::w-auto md:order-1 navbar" id="navbar-cta">
+      <div class="bg-white w-full hidden left-0  lg:w-auto absolute  lg:static top-0 lg:bg-transparent items-center justify-between lg:flex lg::w-auto md:order-1 navbar ease-in duration-300 shadow-sm lg:shadow-none" id="navbar-cta">
         <button class="lg:hidden absolute right-4 top-3 p-1 border border-primary rounded-full close-btn"><x-gmdi-close-o class="h-5 text-primary" /></button>
-        <ul class="w-full lg:w-auto flex bg-white lg:bg-transparent flex-col font-medium px-4 py-10 lg:px-0 lg:py-0 mt-4 text-primary  rounded-lg  lg:flex-row md:space-x-12 lg:mt-0 lg:border-0 z-50">
+        <ul class="w-full lg:w-auto flex bg-white lg:bg-transparent flex-col font-medium px-4 py-10 lg:px-0 lg:py-0 mt-4   rounded-lg  lg:flex-row md:space-x-12 lg:mt-0 lg:border-0 z-50">
           <li>
-            <a href="{{route('index')}}" class="block py-2 pl-3 pr-4 var font-noto  text-blak hover:text-primary md:p-0">Home</a>
+            <a href="{{route('index')}}" class="block py-2 pl-3 pr-4 font-noto text-primary lg:text-blak hover:text-primary md:p-0">Home</a>
           </li>
           <li>
-            <a href="{{route('about')}}" class="block py-2 pl-3 var font-noto text-black  pr-4 hover:text-primary md:p-0">About</a>
+            <a href="{{route('about')}}" class="block py-2 pl-3 font-noto text-primary lg:text-blak  pr-4 hover:text-primary md:p-0">About</a>
           </li>
           <li>
-            <a href="{{route('vendor')}}" class="block py-2 pl-3 pr-4  text-primary  font-noto hover:text-primary md:p-0">Vendors</a>
+            <a href="{{route('vendor')}}" class="block py-2 pl-3 pr-4 text-primary lg:text-primary  font-noto hover:text-primary md:p-0">Vendors</a>
           </li>
           <li>
-            <a href="{{route('term')}}" class="block py-2 pl-3 pr-4 text-blak font-noto hover:text-primary md:p-0" >Terms of Use</a>
+            <a href="{{route('term')}}" class="block py-2 pl-3 pr-4 text-primary lg:text-blak font-noto hover:text-primary md:p-0" >Terms of Use</a>
           </li>
           <li>
-            <a href="{{route('support')}}" class="block py-2 pl-3 pr-4 text-blak  font-noto hover:text-primary md:p-0">Support</a>
+            <a href="{{route('support')}}" class="block py-2 pl-3 pr-4 text-primary lg:text-blak  font-noto hover:text-primary md:p-0">Support</a>
           </li>
         </ul>
       </div>

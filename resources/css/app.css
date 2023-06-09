@@ -2,12 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
- font-family: 'TV2SansDisplay-Regular';
- font-family: 'TV2SansDisplay-Bold';
- src: url(font\TV2SansDisplay-Regular.ttf);
-}
 
+@layer base {
+    @font-face {
+    font-family: 'TV 2 Sans Display';
+    src: url('font/TV2SansDisplay-Bold.woff2') format('woff2'),
+        url('font/TV2SansDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    }
+
+    @font-face {
+    font-family: 'Sacramento';
+    src: url('font/Sacramento-Regular.woff2') format('woff2'),
+        url('font/Sacramento-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}}
+
+h1{
+  font-family: 'TV 2 Sans Display';
+}
 
 .element {
   background: linear-gradient(
@@ -67,3 +83,6 @@
 .done.active{
   display: block;
 }
+
+
+

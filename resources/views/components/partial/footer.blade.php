@@ -10,24 +10,7 @@
       </div>
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 text-left">
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class=" font-medium text-white tracking-widest text-sm mb-3">ABOUT US</h2>
-        <nav class="list-none mb-8 space-y-2">
-          <li>
-            <a class="text-dede hover:text-vblue">Resource</a>
-          </li>
-          <li>
-            <a class="text-dede hover:text-vblue">Course</a>
-          </li>
-          <li>
-            <a class="text-dede hover:text-vblue">Study Tools</a>
-          </li>
-          <li>
-            <a class="text-dede hover:text-vblue">Blog</a>
-          </li>
-        </nav>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
         <h2 class=" font-medium text-white tracking-widest text-sm mb-3">COMMUNITY</h2>
         <nav class="list-none mb-8 space-y-2">
           <li>
@@ -41,7 +24,7 @@
           </li>
         </nav>
       </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
         <h2 class="title-font font-bold text-white tracking-widest text-sm mb-3">LEGAL</h2>
         <nav class="list-none mb-8 space-y-2">
           <li>
@@ -52,7 +35,7 @@
           </li>
         </nav>
       </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
         <h2 class="title-font font-bold text-white tracking-widest text-sm mb-3">CONTACTS</h2>
         <nav class="list-none mb-8 space-y-2">
           <li>
