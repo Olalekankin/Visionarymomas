@@ -15,14 +15,14 @@
           <div class="w-full lg:w-5/6 block lg:relative lg:rounded-2xl">
            <img class="absolute hidden lg:inline -top-12 -left-10 lg:z-10" src="asset/red.png" alt="star shape">
            <img class="absolute hidden lg:inline -right-16 -bottom-6 lg:z-0" src="asset/cream.png" alt="star shape">
-          <div class="w-full block h-auto lg:flex items-start">
-           <img class="h-auto w-full lg:w-1/2 lg:z-0" src="asset/vm1.png" alt="">
+          <div class="w-full block h-auto lg:h-[540px] lg:flex items-start">
+           <img class="h-auto lg:h-full w-full lg:w-1/2 lg:z-0" src="asset/vm1.png" alt="">
            @if(Session::has('message_sent'))
               <div class="bg-green-400 text-white">
                 {{Session::get('message_sent')}}
               </div>
            @endif
-           <form action="{{route('contact.send')}}" method="POST" enctype="multipart/form-data" class="bg-white w-full lg:w-1/2 px-5 lg:px-20 py-5 lg:py-10 lg:rounded-r-3xl lg:z-30">
+           <form action="{{route('contact.send')}}" method="POST" enctype="multipart/form-data" class="bg-white w-full lg:w-1/2 px-5 lg:px-20 py-5 lg:py-10 lg:rounded-r-3xl lg:z-30 lg:h-full">
             @csrf
              <h1 class="font-tvsan font-bold text-2xl text-center lg:text-left ">Send us a message</h1>
              <input type="text" placeholder="Full name" name="name" class=" outline-none focus:border-primary border rounded-full mt-4 border-vgrey px-5 w-full py-2.5 block">
