@@ -31,7 +31,7 @@
             <a href="{{route('term')}}" class="text-dede hover:text-vblue">Terms and Condition</a>
           </li>
           <li>
-            <a class="text-dede hover:text-vblue">Privacy Policy</a>
+            <a href="{{route('privacy')}}" class="text-dede hover:text-vblue">Privacy Policy</a>
           </li>
         </nav>
       </div>

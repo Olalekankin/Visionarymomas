@@ -21,6 +21,9 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+Route::get('/privacy', function () {
+    return view('privacy');
+})->name('privacy');
 
 Route::get('/support', [contactController::class, 'contact'])->name('support');
 
